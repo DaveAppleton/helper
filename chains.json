@@ -1,0 +1,10 @@
+{
+  "0xf5de616a533c514a8cdea002b47bcf40fa20ae5e1b058d7027093fdf8c58165e": {
+    "contracts": {
+      "0x5221004bddfe824b91edb7fbbde27e24d51698ec9c1fb3264ee9a41e39d61ec3": {
+        "name": "helper",
+        "address": "0x650Eed4aB59acEacC2269CF8E7F4C14323122458"
+      }
+    }
+  }
+}
