@@ -1,0 +1,70 @@
+[
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "message",
+				"type": "string"
+			},
+			{
+				"name": "sig",
+				"type": "bytes"
+			}
+		],
+		"name": "recoverSig",
+		"outputs": [
+			{
+				"name": "addr",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "pure",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "message",
+				"type": "string"
+			},
+			{
+				"name": "sig",
+				"type": "bytes"
+			}
+		],
+		"name": "helperVisit",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "helper",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "whoWasVisited",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "message",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "date",
+				"type": "uint256"
+			}
+		],
+		"name": "LogHelperVisit",
+		"type": "event"
+	}
+]
